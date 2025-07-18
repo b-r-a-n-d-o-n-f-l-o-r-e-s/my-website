@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+  
+website: 
+  title: "Brandon Flores"
+  navbar:
+    left: 
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: Blog
+        menu:
+          - text: Posts
+            href: posts/index.qmd
+          - text: Baseball
+            href: baseball/index.qmd
+          - text: Economics
+            href: economics/index.qmd
+
+format: 
+  html:
+    theme: cosmo
+    toc: true
